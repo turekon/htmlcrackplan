@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<div class="row">
+			<div class="col s10 m10 l10 offset-l1">
+				<div class="col s12 m12 l12 separadores120" ></div>
+				<div class="col s12 m12 l12 section scrollspy">
+	    			<a href="login.html"><img class="responsive-img" src="img/crackplan_logo.png"></a>
+				</div>
+				<div class="col s12 m12 l12 separadores60" ></div>
+				<div class="col s12 m12 l12">
+					<div class="row">
+						<div id="divTextoLogin" class="col s612 m6 l6">
+							<div id="textoLogin">
+							    <h4>Don't have friends that <br />
+							    	you don't want to have <br />
+							    	in this social network, <br />
+							    </h4>
+							    </h5>Welcome the new preivate social network to share events <br />
+							      	with you closest friends!
+							    </h5>
+							</div>
+						    <h6>P.S. Say goodbye to privacy issues</h6>						    
+						</div>
+						<div class="col s612 m6 l6">
+							<div class="row">
+								<div class="col s4 m4 l12">
+									<a class="waves-effect waves-light btn disable">Sing in</a>
+									<span> or </span> 
+									<a href="registro.html" class="waves-effect waves-light btn">sign up</a>
+								</div>
+								<div>
+									<form class="col s12">
+								      <div class="row">
+								        <div class="input-field col s12 m6 l6">
+								          <input id="user_name" type="text" class="validate">
+								          <label for="user_name">User or email</label>
+								        </div>
+								        <div class="input-field col s12 m6 l6">
+								          <input id="password" type="password" class="validate">
+								          <label for="password">Password</label>
+								        </div>
+								      </div>							      
+								    </form>							    
+									<button id="btnLogin" class="btn waves-effect waves-light" type="submit" name="action">Sign in</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m12 l12 separadores60" ></div>
+			</div>
+		</div>
+
+        <footer>
+        	<nav>
+				<div class="nav-wrapper">      
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					<ul class="rigth hide-on-med-and-down">
+						<li><a href="about.html">About</a></li>
+						<li><a href="terms.html">Terms</a></li>
+						<li><a href="helps.html">Helps</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a href="helps.html">About</a></li>
+						<li><a href="Terms.html">Terms</a></li>
+						<li><a href="Helps.html">Helps</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+					</ul>
+					</div>
+				</nav>
+        </footer>
+            
+	</body>
+	<script type="text/javascript">
+		$(".button-collapse").sideNav();
+	</script>
+</html>
