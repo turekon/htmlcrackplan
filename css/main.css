@@ -74,6 +74,7 @@ body {
     background-color: #fff!important;
     background: #fff!important;
         margin-top: 20px!important;
+
 }
 .botongoin:active{
     width: 148px!important;
@@ -124,6 +125,8 @@ body {
     cursor: pointer!important;
     opacity: 0!important;
     filter: alpha(opacity=0)!important;
+    width: 100%;
+    height: 100%
 
 }
 .margen{
@@ -143,6 +146,16 @@ body {
     border: 1px solid #CCCCCC!important;
     color: #ccc;
     line-height: 26px;
+}
+#botonadd2 {
+    margin-top: 22px!important;
+    border: 1px solid #CCCCCC!important;
+    color: #ccc;
+    line-height: 48px;
+    border-radius: 50px;
+    float: none!important;
+    max-width: 100px;
+    height: 100px!important;
 }
 .form-control {
     height: 46px;
@@ -179,6 +192,11 @@ body {
 .contenedorpeque{
   width: 30%;
   margin: 0 auto;
+}
+.pgris{
+  color:#ccc;
+  margin-top: 10px;
+  font-size: 18px; 
 }
 .panelperf{
   padding-top: 10px;
