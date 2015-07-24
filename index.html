@@ -4,43 +4,138 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+    <title>Crack plan</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
-		
-	<!-- Optional theme -->
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
-	<!-- Author's custom styles -->
 	<link rel="stylesheet" href="css/main.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
-  <body>    
-    <div class="page-header">
-		<h1>This is just <small>a template</small></h1>
-	</div> 
-	
-	<ul class="nav nav-pills" role="tablist">
-	  <li role="presentation" class="active"><a href="login.html">Login <span class="badge">1</span></a></li>
-	  <li role="presentation"><a href="timeline.html">Timeline <span class="badge">2</span></a></li>
-	  <li role="presentation"><a href="#">Profile<span class="badge">3</span></a></li>
-	</ul>   
+  <body> 
+<nav class="navbar navbar-default menu">
+  <div class="container-fluid contenedor">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img alt="Brand" src="img/header_logo.png">
+    </div>  
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+   
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><img  class="avatar-radius" src="img/hakerman.jpg"></li>
+        <li><a href="#" class="username">User Name</a>
+        <a href="#" >Log out</a></li>
+        
+      
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<div class="contenedor row ">
+  <div class="col-md-12 text-center">
+    <div class="panel panel-default row">
+      <form class="col-md-12 formu">
+  <div class="form-group row">
+    <div class=" col-md-6 margen ">
+     <input type="text" class="form-control col-md-offset-6"  placeholder="Details for this crackplan">
+   </div>   
+  </div>
+  <div class="form-group row">
+    <div class="col-md-6 margen ">
+    <input type="text" class="form-control col-md-offset-6"  placeholder="Where?(Add a place)">
+    </div> 
+  </div>
+  <div class="form-group row">
+    <div class="col-md-6 col-md-offset-3 ">
+      <div class="row">
+        <div class="col-md-3  cort margen">
+        <input type="text" class=" form-control "  placeholder="When?">
+        </div>
+        <div class="col-md-4 cort margen">
+      <input type="text" class="form-control"  placeholder="Now add a time ">
+    </div>
+    <div class="col-md-5 margen">
+   <div id="botonadd" class=" pos btn btn-default botongoin col-md-4  col-sm-12 col-xs-12">
+    <span class="botonimagen">Add a event photo</span>  
+    <input type="file" class=" botongoi" value=""/> 
+</div>
+</div>
+      </div>
+     
+</div>
+  </div>
+  
+  <input type="submit" class="btn btn-default botongoin" value="Do it!"> 
+</form>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="contenedor row ">
+  <div class="col-md-12">
+    <div class="panel panel-default row">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+  <ul class="nav navbar-nav ">
+        <li><img  class="avatar-radius" src="img/hakerman.jpg"></li>
+        <li><a href="#" class="username">User Name</a>
+
+        </li> 
+        <p class="time"> h1</p>
+
+      
+      </ul>
+    </div>
+  <div class="panel-body ">
+    <a class="col-md-12 paneles" href="">
+      <img class="col-md-12 paneles" src="img/event_photo2.jpg">
+    </a>
+  </div>
+
+  
+  <ul class="list-group ">
+    <li class="list-group-item ime">
+      <div class="col-md-12"><p>Descripcion de el plan de crackplan</p></div>
+      <br>
+      <div class="col-md-12"> <p class="username col-md-1">
+        Juan Pancho
+      </p>
+      <p class="coma">,</p>
+      <p class="username col-md-1">
+        Pepe Hackerman
+      </p><p class="coma">,</p>
+      <p class="username col-md-1">
+        Paco Pinzon
+      </p>
+      are going.</div>
+      <div class="col-md-12 text-center"><input class="btn btn-default botongoin" type="submit" value="Going"></div>
+     
+       
+        
+        
+    </li>   
+  </ul>
+</div>
+  </div>
+
+</div>
+<div class="col-md-12 text-center"><input class="btn btn-default botongoin" type="submit" value="Load more"></div>
+
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- Author's custom scripts -->
     <script src="js/main.js"></script>
   </body>
 </html>
