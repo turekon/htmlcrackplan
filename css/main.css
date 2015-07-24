@@ -198,6 +198,52 @@ body {
   margin-top: 10px;
   font-size: 18px; 
 }
+.log{
+  color: #ffffff!important;
+  padding-top: 200px;
+
+}
+.inplog{
+  color: #fff!important;
+         background: rgba(0, 0, 0, 0.45);
+    border: 1px solid #7B7878;
+}
+.inplog-placeholder {  
+   color: #fff;  
+}
+.inplog:-webkit-input-placeholder { /* WebKit browsers */
+     color: #fff; 
+}
+.inplog:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff; 
+   opacity:  1;
+}
+.inplog:-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff; 
+   opacity:  1;
+}
+.inplog:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff; 
+}
+.sub{
+     float: right;
+    background-color: #008ECB;
+    color: #fff;
+    border-radius: 0px;
+    width: 28%;
+    height: 36px;
+}
+.sub:hover{
+     float: right;
+    background-color: #fff;
+    color: #008ECB;
+    border-radius: 0px;
+    width: 28%;
+    height: 36px;
+}
+#bodylog{
+  background-image: url('../img/ChuckNorrisNRW.png');
+}
 .panelperf{
   padding-top: 10px;
     padding-left: 10px!important;
